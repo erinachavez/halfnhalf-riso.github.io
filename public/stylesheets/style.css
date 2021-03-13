@@ -1,0 +1,62 @@
+/* :root */
+:root {
+    --site-padding: 50px;
+    --main-text-color: #333333;
+}
+
+/* General */
+body {
+    background-color: #f3f3f4;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+
+h1, h2, h3, h4, h5 {
+    color: #000;
+    font-family: "Lora", serif;
+}
+
+h6, p { color: var(--main-text-color); }
+
+hr {
+    background-color: var(--main-text-color);
+    margin: 25px 0;
+    opacity: 1;
+}
+
+/* Bootstrap Customization */
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.row { margin: 0; }
+
+/* Navbar */
+nav { padding: var(--site-padding) !important; }
+
+nav #logo {
+    border: 1px solid var(--main-text-color);
+    margin-bottom: 25px;
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+}
+
+nav .nav-item { line-height: 1.75; }
+
+/* Main */
+#main { padding: 0 var(--site-padding) !important; }
+
+/* Footer */
+footer {
+    background-image: url("/images/riso-texture.jpg");
+    background-size: cover;
+    bottom: 0;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+}

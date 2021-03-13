@@ -1,0 +1,23 @@
+{
+  "name": "halfnhalf-riso.github.io",
+  "version": "1.0.0",
+  "description": "Official website of Half n' Half Riso press.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erinachavez/halfnhalf-riso.github.io.git"
+  },
+  "author": "Half n' Half Riso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erinachavez/halfnhalf-riso.github.io/issues"
+  },
+  "homepage": "https://github.com/erinachavez/halfnhalf-riso.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  }
+}
