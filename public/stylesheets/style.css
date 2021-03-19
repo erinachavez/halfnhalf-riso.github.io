@@ -6,7 +6,7 @@
 
 /* General */
 body {
-    background-color: #f3f3f4;
+    background-color: #ebebeb;
     font-family: "Source Sans Pro", sans-serif;
     margin: 0;
     min-height: 100vh;
@@ -35,26 +35,30 @@ hr {
 
 .row { margin: 0; }
 
-/* Navbar */
-nav { padding: var(--site-padding) !important; }
+/* Layout */
+#layout { height: calc(100vh - 200px); }
 
-nav #logo {
-    border: 1px solid var(--main-text-color);
-    margin-bottom: 25px;
-    padding-top: 100%;
-    position: relative;
-    width: 100%;
-}
+    /* Layout: Logo */
+    #layout #logo img { width: 100%; }
 
-nav .nav-item { line-height: 1.75; }
+    /* Layout: Navbar */
+    nav {
+        background-image: url("/images/color_textures/grey.png");
+        background-repeat: repeat;
+        background-size: auto;
+        height: 100%;
+        padding: var(--site-padding) !important;
+    }
+        nav .nav-item { line-height: 1.75;}
 
-/* Main */
-#main { padding: 0 var(--site-padding) !important; }
+    /* Layout: Main */
+    #main { padding: 0 var(--site-padding); }
 
 /* Footer */
 footer {
-    background-image: url("/images/riso-texture.jpg");
-    background-size: cover;
+    background-image: url("/images/color_textures/mediumblue.png");
+    background-repeat: repeat;
+    background-size: auto;
     bottom: 0;
     position: absolute;
     height: 200px;
